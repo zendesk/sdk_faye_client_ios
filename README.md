@@ -2,7 +2,7 @@
 
 # ZendeskSDKFayeClient for iOS
 
-The ZendeskSDKFayeClient library is used to provide interact with a server that uses a Faye implementation of the Bayeux protocol for communication in iOS projects.
+The ZendeskSDKFayeClient library is used to interact with a server that uses a Faye implementation of the Bayeux protocol for communication in iOS projects.
 
 ## Documentation
 
