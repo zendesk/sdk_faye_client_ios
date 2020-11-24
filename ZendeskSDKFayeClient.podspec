@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKFayeClient"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "ZendeskSDKFayeClient #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/embeddables"
   s.license      = {
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zendesk/support_providers_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ZendeskSDKFayeClient.xcframework'
   s.preserve_paths = 'ZendeskSDKFayeClient.xcframework', 'ZendeskSDKFayeClient.dSYMs/*.dSYM'
-  s.dependency 'ZendeskSDKSocketClient', '~> 0.1.0'
-  s.dependency 'ZendeskSDKLogger', '~> 0.1.0'
+  s.dependency 'ZendeskSDKSocketClient', '~> 0.1.1'
+  s.dependency 'ZendeskSDKLogger', '~> 0.1.1'
 end
