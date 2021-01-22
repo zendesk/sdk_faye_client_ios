@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskSDKSocketClient",
                  url: "https://github.com/zendesk/sdk_socket_client_ios",
-                 from: "0.1.1"),
+                 from: "0.3.2"),
         .package(name: "ZendeskSDKLogger",
                  url: "https://github.com/zendesk/sdk_logger_ios",
                  from: "0.1.1")
@@ -31,6 +31,7 @@ let package = Package(
                     .target(name: "ZendeskSDKFayeClient"),
                     .product(name: "ZendeskSDKSocketClient", package: "ZendeskSDKSocketClient"),
                     .product(name: "ZendeskSDKLogger", package: "ZendeskSDKLogger")
-        ])
+                ],
+                path: "Sources")
     ]
 )
