@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZendeskSDKFayeClient
 import Foundation
 import Swift
@@ -22,10 +22,10 @@ public protocol FayeClientDelegate : AnyObject {
 public enum FayeClientInitError : Swift.Error {
   case invalidURL
   public static func == (a: ZendeskSDKFayeClient.FayeClientInitError, b: ZendeskSDKFayeClient.FayeClientInitError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum FayeClientError : Swift.Error {
   case stringDeserialisationFailed(message: Swift.String)
@@ -57,11 +57,11 @@ public protocol FayeClient {
 public enum FayeConnectionState : Swift.Equatable {
   case disconnected
   case connected
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ZendeskSDKFayeClient.FayeConnectionState, b: ZendeskSDKFayeClient.FayeConnectionState) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: ZendeskSDKFayeClient.FayeConnectionState, b: ZendeskSDKFayeClient.FayeConnectionState) -> Swift.Bool
 }
 extension ZendeskSDKFayeClient.FayeClientInitError : Swift.Equatable {}
 extension ZendeskSDKFayeClient.FayeClientInitError : Swift.Hashable {}

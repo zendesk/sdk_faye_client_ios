@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKFayeClient"
-  s.version      = "0.4.0"
+  s.version      = "0.4.1"
   s.summary      = "ZendeskSDKFayeClient #{s.version.to_s}"
-  s.homepage     = "https://developer.zendesk.com/embeddables"
+  s.homepage     = "https://developer.zendesk.com/documentation/zendesk-sdks/"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -18,13 +18,10 @@ Pod::Spec.new do |s|
   s.author       = 'Zendesk'
   s.platform     = :ios, '10.0'
   s.requires_arc = true
-  s.swift_version = '5.3.2'
-  s.cocoapods_version = '>= 1.9.3'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.swift_version = '5.4'
+  s.cocoapods_version = '>= 1.10.0'
   s.source       = { :git => "https://github.com/zendesk/sdk_faye_client_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ZendeskSDKFayeClient.xcframework'
-  s.preserve_paths = 'ZendeskSDKFayeClient.xcframework', 'ZendeskSDKFayeClient.dSYMs/*.dSYM'
-  s.dependency 'ZendeskSDKSocketClient', '~> 0.4.0'
-  s.dependency 'ZendeskSDKLogger', '~> 0.4.0'
+  s.dependency 'ZendeskSDKSocketClient', '~> 0.4.1'
+  s.dependency 'ZendeskSDKLogger', '~> 0.4.1'
 end
