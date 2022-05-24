@@ -22,6 +22,7 @@ public protocol SocketClientDelegate : AnyObject {
   func didReceiveData(data: Foundation.Data)
   func didReceiveError(error: Swift.Error?)
   func didReceiveCancelled()
+  func didReceivePeerClosed()
 }
 public struct SocketClientBuilder {
   public init()
