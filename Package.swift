@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "ZendeskSDKFayeClient",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -16,10 +16,10 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskSDKSocketClient",
                  url: "https://github.com/zendesk/sdk_socket_client_ios",
-                 from: "1.1.0"),
+                 from: "1.2.0"),
         .package(name: "ZendeskSDKLogger",
                  url: "https://github.com/zendesk/sdk_logger_ios",
-                 from: "0.4.3")
+                 from: "0.5.0")
     ],
     targets: [
         .binaryTarget(
