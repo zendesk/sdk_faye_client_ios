@@ -16,10 +16,10 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskSDKSocketClient",
                  url: "https://github.com/zendesk/sdk_socket_client_ios",
-                 from: "1.3.0"),
+                 from: "1.4.0"),
         .package(name: "ZendeskSDKLogger",
                  url: "https://github.com/zendesk/sdk_logger_ios",
-                 from: "0.6.0")
+                 from: "0.7.0")
     ],
     targets: [
         .binaryTarget(
