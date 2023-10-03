@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "ZendeskSDKFayeClient",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -14,24 +14,30 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "ZendeskSDKSocketClient",
-                 url: "https://github.com/zendesk/sdk_socket_client_ios",
-                 from: "1.5.0"),
-        .package(name: "ZendeskSDKLogger",
-                 url: "https://github.com/zendesk/sdk_logger_ios",
-                 from: "0.8.0")
+        .package(
+            name: "ZendeskSDKSocketClient",
+            url: "https://github.com/zendesk/sdk_socket_client_ios",
+            from: "1.6.0"
+        ),
+        .package(
+            name: "ZendeskSDKLogger",
+            url: "https://github.com/zendesk/sdk_logger_ios",
+            from: "0.9.0"
+        )
     ],
     targets: [
         .binaryTarget(
             name: "ZendeskSDKFayeClient",
             path: "ZendeskSDKFayeClient.xcframework"
         ),
-        .target(name: "ZendeskSDKFayeClientTargets",
-                dependencies: [
-                    .target(name: "ZendeskSDKFayeClient"),
-                    .product(name: "ZendeskSDKSocketClient", package: "ZendeskSDKSocketClient"),
-                    .product(name: "ZendeskSDKLogger", package: "ZendeskSDKLogger")
-                ],
-                path: "Sources")
+        .target(
+            name: "ZendeskSDKFayeClientTargets",
+            dependencies: [
+                .target(name: "ZendeskSDKFayeClient"),
+                .product(name: "ZendeskSDKSocketClient", package: "ZendeskSDKSocketClient"),
+                .product(name: "ZendeskSDKLogger", package: "ZendeskSDKLogger")
+            ],
+            path: "Sources"
+        )
     ]
 )
