@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKFayeClient"
-  s.version      = "1.8.1"
+  s.version      = "1.8.2"
   s.summary      = "ZendeskSDKFayeClient #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/documentation/zendesk-web-widget-sdks/sdks/ios/getting_started/"
   s.license      = {
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.10.0'
   s.source       = { :git => "https://github.com/zendesk/sdk_faye_client_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ZendeskSDKFayeClient.xcframework'
-  s.dependency 'ZendeskSDKSocketClient', '~> 1.7.1'
-  s.dependency 'ZendeskSDKLogger', '~> 0.9.1'
+  s.dependency 'ZendeskSDKSocketClient', '~> 1.7.2'
+  s.dependency 'ZendeskSDKLogger', '~> 0.9.2'
 end

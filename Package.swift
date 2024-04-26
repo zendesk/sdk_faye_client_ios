@@ -17,12 +17,12 @@ let package = Package(
         .package(
             name: "ZendeskSDKSocketClient",
             url: "https://github.com/zendesk/sdk_socket_client_ios",
-            from: "1.7.1"
+            from: "1.7.2"
         ),
         .package(
             name: "ZendeskSDKLogger",
             url: "https://github.com/zendesk/sdk_logger_ios",
-            from: "0.9.1"
+            from: "0.9.2"
         )
     ],
     targets: [
