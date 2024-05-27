@@ -149,16 +149,16 @@ relocations:
   - { offsetInCU: 0xD5E, offset: 0x344A9, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient011DefaultFayeC0CAA0eC0A2aDP7publish2to4data2idySS_qd__SSSgtSERd__lFTW', symObjAddr: 0x3C0, symBinAddr: 0x9A60, symSize: 0x30 }
   - { offsetInCU: 0xFE0, offset: 0x3472B, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV10DisconnectVy_AA5EmptyVGMa', symObjAddr: 0x1020, symBinAddr: 0xA5C0, symSize: 0x50 }
   - { offsetInCU: 0xFF4, offset: 0x3473F, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x10B0, symBinAddr: 0xA610, symSize: 0x20 }
-  - { offsetInCU: 0x4F, offset: 0x349DD, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV11longPollingSSvpZ', symObjAddr: 0x1FF38, symBinAddr: 0x20118, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x349F7, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV6iFrameSSvpZ', symObjAddr: 0x1FF48, symBinAddr: 0x20128, symSize: 0x0 }
-  - { offsetInCU: 0x83, offset: 0x34A11, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV9webSocketSSvpZ', symObjAddr: 0x1FF58, symBinAddr: 0x20138, symSize: 0x0 }
-  - { offsetInCU: 0x9D, offset: 0x34A2B, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV7channelSSvpZ', symObjAddr: 0x1FF68, symBinAddr: 0x20148, symSize: 0x0 }
-  - { offsetInCU: 0xB7, offset: 0x34A45, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV2idSSvpZ', symObjAddr: 0x1FF78, symBinAddr: 0x20158, symSize: 0x0 }
-  - { offsetInCU: 0xD1, offset: 0x34A5F, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV3extSSvpZ', symObjAddr: 0x1FF88, symBinAddr: 0x20168, symSize: 0x0 }
-  - { offsetInCU: 0xEB, offset: 0x34A79, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV4dataSSvpZ', symObjAddr: 0x1FF98, symBinAddr: 0x20178, symSize: 0x0 }
-  - { offsetInCU: 0x105, offset: 0x34A93, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV8clientIdSSvpZ', symObjAddr: 0x1FFA8, symBinAddr: 0x20188, symSize: 0x0 }
-  - { offsetInCU: 0x11F, offset: 0x34AAD, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV14connectionTypeSSvpZ', symObjAddr: 0x1FFB8, symBinAddr: 0x20198, symSize: 0x0 }
-  - { offsetInCU: 0x139, offset: 0x34AC7, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV12subscriptionSSvpZ', symObjAddr: 0x1FFC8, symBinAddr: 0x201A8, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x349DD, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV11longPollingSSvpZ', symObjAddr: 0x1FF28, symBinAddr: 0x20118, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x349F7, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV6iFrameSSvpZ', symObjAddr: 0x1FF38, symBinAddr: 0x20128, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0x34A11, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV9webSocketSSvpZ', symObjAddr: 0x1FF48, symBinAddr: 0x20138, symSize: 0x0 }
+  - { offsetInCU: 0x9D, offset: 0x34A2B, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV7channelSSvpZ', symObjAddr: 0x1FF58, symBinAddr: 0x20148, symSize: 0x0 }
+  - { offsetInCU: 0xB7, offset: 0x34A45, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV2idSSvpZ', symObjAddr: 0x1FF68, symBinAddr: 0x20158, symSize: 0x0 }
+  - { offsetInCU: 0xD1, offset: 0x34A5F, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV3extSSvpZ', symObjAddr: 0x1FF78, symBinAddr: 0x20168, symSize: 0x0 }
+  - { offsetInCU: 0xEB, offset: 0x34A79, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV4dataSSvpZ', symObjAddr: 0x1FF88, symBinAddr: 0x20178, symSize: 0x0 }
+  - { offsetInCU: 0x105, offset: 0x34A93, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV8clientIdSSvpZ', symObjAddr: 0x1FF98, symBinAddr: 0x20188, symSize: 0x0 }
+  - { offsetInCU: 0x11F, offset: 0x34AAD, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV14connectionTypeSSvpZ', symObjAddr: 0x1FFA8, symBinAddr: 0x20198, symSize: 0x0 }
+  - { offsetInCU: 0x139, offset: 0x34AC7, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV12subscriptionSSvpZ', symObjAddr: 0x1FFB8, symBinAddr: 0x201A8, symSize: 0x0 }
   - { offsetInCU: 0x1A9, offset: 0x34B37, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV9HandshakeV24supportedConnectionTypes2id3extAEy_xGSaySSGSg_SSSgxSgtcfC', symObjAddr: 0x0, symBinAddr: 0xA630, symSize: 0x1D0 }
   - { offsetInCU: 0x293, offset: 0x34C21, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV9HandshakeV10CodingKeys33_DA8444F332A71282238AF649B622E493LLO11stringValueAHy_x_GSgSS_tcfC', symObjAddr: 0x1750, symBinAddr: 0xBD40, symSize: 0x1B0 }
   - { offsetInCU: 0x2E1, offset: 0x34C6F, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient6BayeuxV9HandshakeV10CodingKeys33_DA8444F332A71282238AF649B622E493LLO11stringValueSSvg', symObjAddr: 0x1900, symBinAddr: 0xBEF0, symSize: 0xB0 }
@@ -406,7 +406,7 @@ relocations:
   - { offsetInCU: 0x45A, offset: 0x37D1C, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient19FayeConnectionStateOMa', symObjAddr: 0x300, symBinAddr: 0x12980, symSize: 0xA }
   - { offsetInCU: 0x4AC, offset: 0x37D6E, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient19FayeConnectionStateOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xD0, symBinAddr: 0x12770, symSize: 0x40 }
   - { offsetInCU: 0x4F, offset: 0x37F07, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient011DefaultFayeC0C12logNamespaceSSvpZ', symObjAddr: 0x3FB0, symBinAddr: 0x1DE98, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x37F21, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient011DefaultFayeC0C11logCategorySSvpZ', symObjAddr: 0x151F0, symBinAddr: 0x201B8, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x37F21, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient011DefaultFayeC0C11logCategorySSvpZ', symObjAddr: 0x151D8, symBinAddr: 0x201B8, symSize: 0x0 }
   - { offsetInCU: 0x77, offset: 0x37F2F, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient011DefaultFayeC0C11logCategory_WZ', symObjAddr: 0x0, symBinAddr: 0x12990, symSize: 0x30 }
   - { offsetInCU: 0x1D8, offset: 0x38090, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient011DefaultFayeC0C7connect24supportedConnectionTypes12handshakeExt0J2Id0fK00fL0ySaySSGSg_xSSSgq_ALtSERzSER_r0_lF', symObjAddr: 0x30, symBinAddr: 0x129C0, symSize: 0x2C0 }
   - { offsetInCU: 0x2F1, offset: 0x381A9, size: 0x8, addend: 0x0, symName: '_$s20ZendeskSDKFayeClient011DefaultFayeC0C10disconnect2id3extySSSg_xtSERzlF', symObjAddr: 0x2F0, symBinAddr: 0x12C80, symSize: 0x340 }
