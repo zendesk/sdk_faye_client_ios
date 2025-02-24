@@ -2489,245 +2489,245 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 702,
       "length": 24,
       "value": "\"com.zendesk.FayeClient\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 764,
       "length": 6,
       "value": "\"FAYE\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 914,
+      "offset": 912,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5757,
+      "offset": 5755,
       "length": 80,
       "value": "\"`subscribe(to:)` was called but the client is already subscribed to \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 5836,
+      "offset": 5834,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 7230,
+      "offset": 7228,
       "length": 86,
       "value": "\"`subscribe(from:)` was called but the client is already not subscribed to \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 7315,
+      "offset": 7313,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 8942,
+      "offset": 8940,
       "length": 55,
       "value": "\"Publishing to channel \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 8975,
+      "offset": 8973,
       "length": 1,
       "value": "\", message: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 8996,
+      "offset": 8994,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 9502,
+      "offset": 9500,
       "length": 61,
       "value": "\"Client has disconnected from FAYE server and the WebSocket.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 10169,
+      "offset": 10167,
       "length": 50,
       "value": "\"Failed to serialise message receive from server.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 10614,
+      "offset": 10612,
       "length": 44,
       "value": "\"Failed to decode data receive from server.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 11581,
+      "offset": 11579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 12328,
+      "offset": 12326,
       "length": 174,
       "value": "\"Object: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 12369,
+      "offset": 12367,
       "length": 8,
       "value": "\"\nreceived from server doesn't follow Bayeux protocol, failed to decode as a Bayeux Response type.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 12790,
+      "offset": 12788,
       "length": 156,
       "value": "\"Handshake response was received but success was \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 12867,
+      "offset": 12865,
       "length": 2,
       "value": "\" or no clientId was received, disconnecting from the websocket.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 12996,
+      "offset": 12994,
       "length": 51,
       "value": "\"Client has successfully connected to FAYE server.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 13363,
+      "offset": 13361,
       "length": 96,
       "value": "\"Connect response was received but success was \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 13423,
+      "offset": 13421,
       "length": 1,
       "value": "\", disconnecting from the websocket.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 13546,
+      "offset": 13544,
       "length": 50,
       "value": "\"Sending connect message to keep connection alive\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 13755,
+      "offset": 13753,
       "length": 86,
       "value": "\"Disconnect response was received but success was \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 13818,
+      "offset": 13816,
       "length": 1,
       "value": "\", still disconnecting.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 14190,
+      "offset": 14188,
       "length": 99,
       "value": "\"Subscribe response was received but success was \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 14252,
+      "offset": 14250,
       "length": 1,
       "value": "\", not subscribed to \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 14287,
+      "offset": 14285,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 14672,
+      "offset": 14670,
       "length": 106,
       "value": "\"Unsubscribe response was received but success was \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 14736,
+      "offset": 14734,
       "length": 1,
       "value": "\", not unsubscribing from \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 14776,
+      "offset": 14774,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 14934,
+      "offset": 14932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 14961,
+      "offset": 14959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 15490,
+      "offset": 15488,
       "length": 173,
       "value": "\"Message received from channel \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 15551,
+      "offset": 15549,
       "length": 3,
       "value": "\" but the client is not subscribed to this channel.\nNot Handling message: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
-      "offset": 15646,
+      "offset": 15644,
       "length": 1,
       "value": "\".\""
     }
