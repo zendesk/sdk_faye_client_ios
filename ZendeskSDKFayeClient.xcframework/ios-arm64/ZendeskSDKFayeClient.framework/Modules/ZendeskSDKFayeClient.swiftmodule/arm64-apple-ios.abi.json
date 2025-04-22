@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ZendeskSDKFayeClient",
+    "printedName": "ZendeskSDKFayeClient",
     "children": [
       {
         "kind": "Import",
@@ -55,7 +55,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -78,6 +78,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -145,7 +161,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -175,7 +191,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -211,7 +227,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -247,7 +263,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -289,7 +305,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -331,7 +347,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -367,7 +383,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "FayeClient",
-                "printedName": "ZendeskSDKFayeClient.FayeClient",
+                "printedName": "any ZendeskSDKFayeClient.FayeClient",
                 "usr": "s:20ZendeskSDKFayeClient04FayeC0P"
               }
             ],
@@ -441,6 +457,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -604,6 +636,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -827,12 +873,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ZendeskSDKFayeClient.FayeClientError.Type) -> (Swift.Error?) -> ZendeskSDKFayeClient.FayeClientError",
+                "printedName": "(ZendeskSDKFayeClient.FayeClientError.Type) -> ((any Swift.Error)?) -> ZendeskSDKFayeClient.FayeClientError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ZendeskSDKFayeClient.FayeClientError",
+                    "printedName": "((any Swift.Error)?) -> ZendeskSDKFayeClient.FayeClientError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -843,17 +889,17 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(error: Swift.Error?)",
+                        "printedName": "(error: (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -934,6 +980,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -988,12 +1048,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "ZendeskSDKFayeClient.FayeClientDelegate?",
+                "printedName": "(any ZendeskSDKFayeClient.FayeClientDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "FayeClientDelegate",
-                    "printedName": "ZendeskSDKFayeClient.FayeClientDelegate",
+                    "printedName": "any ZendeskSDKFayeClient.FayeClientDelegate",
                     "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP"
                   }
                 ],
@@ -1017,12 +1077,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ZendeskSDKFayeClient.FayeClientDelegate?",
+                    "printedName": "(any ZendeskSDKFayeClient.FayeClientDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FayeClientDelegate",
-                        "printedName": "ZendeskSDKFayeClient.FayeClientDelegate",
+                        "printedName": "any ZendeskSDKFayeClient.FayeClientDelegate",
                         "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP"
                       }
                     ],
@@ -1052,12 +1112,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ZendeskSDKFayeClient.FayeClientDelegate?",
+                    "printedName": "(any ZendeskSDKFayeClient.FayeClientDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FayeClientDelegate",
-                        "printedName": "ZendeskSDKFayeClient.FayeClientDelegate",
+                        "printedName": "any ZendeskSDKFayeClient.FayeClientDelegate",
                         "usr": "s:20ZendeskSDKFayeClient04FayeC8DelegateP"
                       }
                     ],
@@ -1991,6 +2051,22 @@
         "moduleName": "ZendeskSDKFayeClient",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2206,6 +2282,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -2242,81 +2332,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/BayeuxMessageEncoder.swift",
-      "kind": "Array",
-      "offset": 2842,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/WebSocketTransport\/DefaultWebSocketTransport.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1314,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/State\/FayeState.swift",
       "kind": "Array",
       "offset": 732,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/Errors\/FayeClientError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1676,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/Errors\/FayeClientError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1743,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/Errors\/FayeClientError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1784,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "StringLiteral",
-      "offset": 691,
-      "length": 17,
-      "value": "\"\/meta\/handshake\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "StringLiteral",
-      "offset": 732,
-      "length": 15,
-      "value": "\"\/meta\/connect\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "StringLiteral",
-      "offset": 774,
-      "length": 18,
-      "value": "\"\/meta\/disconnect\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "StringLiteral",
-      "offset": 818,
-      "length": 17,
-      "value": "\"\/meta\/subscribe\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "StringLiteral",
-      "offset": 863,
-      "length": 19,
-      "value": "\"\/meta\/unsubscribe\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
@@ -2466,27 +2486,6 @@
       "value": "\"1.0beta\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "StringLiteral",
-      "offset": 1778,
-      "length": 5,
-      "value": "\"1.0\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "StringLiteral",
-      "offset": 1807,
-      "length": 9,
-      "value": "\"1.0beta\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Bayeux\/Bayeux.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3236,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
       "kind": "StringLiteral",
       "offset": 702,
@@ -2506,230 +2505,6 @@
       "offset": 912,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5755,
-      "length": 80,
-      "value": "\"`subscribe(to:)` was called but the client is already subscribed to \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5834,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7228,
-      "length": 86,
-      "value": "\"`subscribe(from:)` was called but the client is already not subscribed to \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7313,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 8940,
-      "length": 55,
-      "value": "\"Publishing to channel \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 8973,
-      "length": 1,
-      "value": "\", message: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 8994,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9500,
-      "length": 61,
-      "value": "\"Client has disconnected from FAYE server and the WebSocket.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 10167,
-      "length": 50,
-      "value": "\"Failed to serialise message receive from server.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 10612,
-      "length": 44,
-      "value": "\"Failed to decode data receive from server.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11579,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12326,
-      "length": 174,
-      "value": "\"Object: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12367,
-      "length": 8,
-      "value": "\"\nreceived from server doesn't follow Bayeux protocol, failed to decode as a Bayeux Response type.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12788,
-      "length": 156,
-      "value": "\"Handshake response was received but success was \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12865,
-      "length": 2,
-      "value": "\" or no clientId was received, disconnecting from the websocket.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12994,
-      "length": 51,
-      "value": "\"Client has successfully connected to FAYE server.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 13361,
-      "length": 96,
-      "value": "\"Connect response was received but success was \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 13421,
-      "length": 1,
-      "value": "\", disconnecting from the websocket.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 13544,
-      "length": 50,
-      "value": "\"Sending connect message to keep connection alive\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 13753,
-      "length": 86,
-      "value": "\"Disconnect response was received but success was \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 13816,
-      "length": 1,
-      "value": "\", still disconnecting.\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 14188,
-      "length": 99,
-      "value": "\"Subscribe response was received but success was \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 14250,
-      "length": 1,
-      "value": "\", not subscribed to \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 14285,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 14670,
-      "length": 106,
-      "value": "\"Unsubscribe response was received but success was \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 14734,
-      "length": 1,
-      "value": "\", not unsubscribing from \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 14774,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14932,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14959,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 15488,
-      "length": 173,
-      "value": "\"Message received from channel \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 15549,
-      "length": 3,
-      "value": "\" but the client is not subscribed to this channel.\nNot Handling message: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/FayeClient\/FayeClient\/Source\/Faye\/DefaultFayeClient.swift",
-      "kind": "StringLiteral",
-      "offset": 15644,
-      "length": 1,
-      "value": "\".\""
     }
   ]
 }
