@@ -17,7 +17,7 @@ let package = Package(
         .package(
             name: "ZendeskSDKSocketClient",
             url: "https://github.com/zendesk/sdk_socket_client_ios",
-            from: "1.12.0"
+            from: "1.13.0"
         ),
         .package(
             name: "ZendeskSDKLogger",
