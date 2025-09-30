@@ -934,6 +934,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "subscribeFailed",
+            "printedName": "subscribeFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKFayeClient.FayeClientError.Type) -> ZendeskSDKFayeClient.FayeClientError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FayeClientError",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                    "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZendeskSDKFayeClient.FayeClientError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FayeClientError",
+                        "printedName": "ZendeskSDKFayeClient.FayeClientError",
+                        "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20ZendeskSDKFayeClient04FayeC5ErrorO15subscribeFailedyA2CmF",
+            "mangledName": "$s20ZendeskSDKFayeClient04FayeC5ErrorO15subscribeFailedyA2CmF",
+            "moduleName": "ZendeskSDKFayeClient",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
